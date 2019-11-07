@@ -1,0 +1,90 @@
+$bg-color:#333;
+$text-color:#fff;
+$nav-bg:#008ed6;
+$icon-size:30px;
+body{
+    background: $bg-color;
+    color:$text-color;
+}
+
+.navbar{
+    border-bottom: 3px solid $nav-bg ;
+    background: #343a40 !important;
+    opacity: 0.7;
+}
+
+#home-top-section{
+    background: url('../img/adolescent-beautiful-beauty-247878.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    .dark-overlay{
+        background: rgba(0,0,0,0.7);
+        min-height: 600px;
+    }
+    .fa{
+        background: #ffffff; 
+        color:$nav-bg;
+        padding: 7px;
+        border-radius: 15%;
+        font-size:$icon-size;
+    }
+
+    .my-form{
+        opacity: 0.8;
+    }
+    .home-inner{
+        padding-top: 100px;
+        margin-bottom: 50px;
+    }
+
+}
+
+#explore-main{
+    .fa{
+       font-size:$icon-size; 
+       background:$bg-color;
+       color:$text-color;
+       padding:7px;
+       border-radius: 4px;
+
+    }
+}
+#create-section{
+    .fa{
+        background:$text-color;
+        color:$bg-color;
+        padding:7px;
+        border-radius: 5px;
+    }
+}
+#create-main{
+    .fa{
+        color:$nav-bg;
+        background: $text-color;
+        padding:7px;
+        border-radius: 6px;
+        font-size: $icon-size;
+    }
+}
+#share-section{
+    .fa{
+        color:$text-color;
+        background: $bg-color;
+        padding:7px;
+        border-radius: 4px;
+        font-size: $icon-size;
+       
+    }
+}
+
+
+
+/*media query*/
+@media(max-width:768){
+#home-top-section h1{
+    font-size: 30px;
+}
+}
